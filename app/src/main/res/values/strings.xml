@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SilverCity</string>
+    <string name="app_name">Musawo App</string>
     <string name="passwordforgotten"><u>Forgot your password ?</u></string>
 
     <string-array name="doctorSpeciality">
@@ -32,5 +32,5 @@
     <string name="title_activity_medical_folder">MedicalFolderActivity</string>
     <string name="title_activity_doctor_localisation">Map</string>
     <string name="title_activity_doctor_appointments">DoctorAppointments</string>
-    <string name="title_activity_my_patient_medical_folder">MyPatientMedicalFolderActivity</string>
+    <string name="title_activity_my_patient_medical_folder">yoMusawo </string>
 </resources>
