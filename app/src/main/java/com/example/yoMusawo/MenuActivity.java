@@ -188,7 +188,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void goToSo (View view) {
-        goToUrl ( "http://silvercityhospital.com");
+        goToUrl ( "https://www.google.com/maps/search/hospitals+in+kampala/@0.3030006,32.5747372,13.38z");
     }
 
     public void Appointments(View view) {

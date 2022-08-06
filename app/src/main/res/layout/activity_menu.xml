@@ -204,7 +204,7 @@
 
             <ImageView
                 android:layout_width="64dp"
-                android:layout_height="64dp"
+                android:layout_height="69dp"
                 android:src="@drawable/ic_baseline_business_24" />
 
             <TextView
