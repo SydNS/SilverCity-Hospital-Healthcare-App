@@ -25,7 +25,7 @@
         android:layout_height="124dp"
         android:layout_gravity="center"
         android:layout_marginBottom="120dp"
-        app:civ_border_color="#FFFFFF"
+        app:civ_border_color="@color/colorPrimary"
         app:civ_border_width="2dp" />
 
     <LinearLayout
@@ -76,9 +76,11 @@
 
             <TextView
                 android:id="@+id/birthDate"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Birthday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -98,10 +100,11 @@
 
             <TextView
                 android:id="@+id/email"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Email Address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
-
+                android:fontFamily="@font/josefin"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -121,9 +124,11 @@
 
             <TextView
                 android:id="@+id/phoneNumber"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Phone Number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -143,9 +148,11 @@
 
             <TextView
                 android:id="@+id/maritalStatus"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Marital Status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:textSize="16sp" />
         </LinearLayout>
         <LinearLayout
@@ -164,9 +171,11 @@
 
             <TextView
                 android:id="@+id/blood_group"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Blood Group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:textSize="16sp" />
         </LinearLayout>
         <LinearLayout
@@ -185,9 +194,11 @@
 
             <TextView
                 android:id="@+id/past_history"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Past History"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:textSize="16sp" />
         </LinearLayout>
 

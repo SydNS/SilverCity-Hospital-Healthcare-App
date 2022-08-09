@@ -55,9 +55,10 @@
                 android:id="@+id/fullName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:text="Aliluch Loutfi"
-                android:backgroundTint="#da3084"
+                android:textColor="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -80,9 +81,10 @@
                 android:id="@+id/speciality"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:text="Dermathologue"
-                android:backgroundTint="#da3084"
+                android:textColor="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -105,9 +107,10 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:text="aliluch.loutfi@gmail.com"
-                android:backgroundTint="#da3084"
+                android:textColor="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimary"
                 android:inputType="textEmailAddress"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -132,8 +135,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0610108175"
-                android:backgroundTint="#da3084"
-                android:fontFamily="@font/montserrat"
+                android:textColor="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/josefin"
                 android:inputType="phone"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -156,10 +160,11 @@
                 android:id="@+id/address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:text="Avenue Mohamed Zraktouni"
                 android:inputType="date"
-                android:backgroundTint="#da3084"
+                android:textColor="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
         <LinearLayout
@@ -181,8 +186,9 @@
                 android:id="@+id/city"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
-                android:backgroundTint="#da3084"
+                android:fontFamily="@font/josefin"
+                android:textColor="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimary"
                 android:text="Al Hoceima"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -193,7 +199,9 @@
             android:layout_gravity="bottom|center_horizontal"
             android:background="@drawable/outline_button"
             android:text="Save changes"
-            android:textColor="#da3084"
+            android:fontFamily="@font/josefin"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
             android:layout_marginBottom="20dp"
             android:textAllCaps="false"
             android:onClick="update"/>

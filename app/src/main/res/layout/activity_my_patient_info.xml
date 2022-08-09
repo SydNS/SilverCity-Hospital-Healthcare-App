@@ -29,7 +29,7 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="83dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
             android:gravity="center"
             android:text='" The satisfaction of patients is our priority ! "'
             android:textColor="#FFF"

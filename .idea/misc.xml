@@ -5,29 +5,99 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_today_1.xml" value="0.2285" />
         <entry key="app/src/main/res/drawable/border_bottom_roundedx.xml" value="0.1735" />
+        <entry key="app/src/main/res/drawable/custom_edittext.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/custombutton.xml" value="0.264" />
         <entry key="app/src/main/res/drawable/custombuttonx.xml" value="0.1745" />
+        <entry key="app/src/main/res/drawable/custombuttonxx.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/customlinearlayout.xml" value="0.264" />
         <entry key="app/src/main/res/drawable/disease.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_assignment.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/ic_attach_money.xml" value="0.2285" />
+        <entry key="app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_baseline_local_hospital_24.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_cake.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_card_membership.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_delete_grey.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/ic_edit_1.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_edit_grey.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/ic_email.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_info_outline.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/ic_local_phone.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_location.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/ic_location_city.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_lock_outline.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_man.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_molecular_bond.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_people.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_person.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/ic_person_outline.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_photo_camera.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/outline_button.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/outline_linearlayout.xml" value="0.2285" />
+        <entry key="app/src/main/res/drawable/search.xml" value="0.179" />
         <entry key="app/src/main/res/font/asert.xml" value="0.3212962962962963" />
         <entry key="app/src/main/res/font/montserrat.xml" value="0.3212962962962963" />
         <entry key="app/src/main/res/layout/accepted_fragment.xml" value="0.5" />
-        <entry key="app/src/main/res/layout/activity_appointments.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_appointments.xml" value="0.2888198757763975" />
         <entry key="app/src/main/res/layout/activity_consultation_info.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_display_doctor_info.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/activity_display_doctor_profile_info.xml" value="0.3182291666666667" />
         <entry key="app/src/main/res/layout/activity_display_item_data.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/activity_display_patient_info.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_display_prescription_photo.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_doctor_appointments.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_doctor_edit_profile_info.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_doctor_localisation.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_doctor_menu.xml" value="0.2456732798649219" />
+        <entry key="app/src/main/res/layout/activity_doctors_by_speciality.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_emergency_call.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2456732798649219" />
+        <entry key="app/src/main/res/layout/activity_medical_folder.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_my_doctor_info.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_my_doctors.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_my_patient_info.xml" value="0.2456732798649219" />
+        <entry key="app/src/main/res/layout/activity_my_patient_medical_folder.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_my_patients.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_patient_profile_informations.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_schedule_appointment.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_search_doctor.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_search_doctor_speciality.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_search_patient.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3182291666666667" />
+        <entry key="app/src/main/res/layout/add_consultation_dialog.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/add_hospitalisation_dialog.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/appointment_row.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/consultation_fragment.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/consultation_row.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/declined_fragment.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/doctor_accepted_fragment.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/doctor_declined_fragment.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/doctor_onhold_fragment.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/edit_consultation_dialog.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/edit_hospitalisation_dialog.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/edit_reason_layout_dialog.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/fragment_doctor_appointments.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/fragment_search_doctor_speciality.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/fragmentone_layout.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/fragmenttwo_layout.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/hospitalisation_fragment.xml" value="0.22870370370370371" />
+        <entry key="app/src/main/res/layout/hospitalisation_row.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/item_layout.xml" value="0.22870370370370371" />
+        <entry key="app/src/main/res/layout/layout_dialog.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/mydoctor_row.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/mypatient_consultation_fragment.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/mypatient_consultation_row.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/mypatient_hospitalisation_fragment.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/mypatient_row.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/onhold_appointment_row.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/onhold_fragment.xml" value="0.2456732798649219" />
+        <entry key="app/src/main/res/layout/placeholder_fragment_layout.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/reason_layout_dialog.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/row.xml" value="0.303125" />
       </map>
     </option>
   </component>

@@ -54,11 +54,12 @@
 
             <EditText
                 android:id="@+id/fullName"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:text="Aliluch Loutfi"
-                android:backgroundTint="#da3084"
+                android:textColor="@color/colorAccent"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -83,7 +84,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/montserrat"
                 android:text="R364727"
-                android:backgroundTint="#da3084"
+                android:textColor="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -106,9 +108,11 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:text="aliluch.loutfi@gmail.com"
-                android:backgroundTint="#da3084"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
                 android:inputType="textEmailAddress"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -130,11 +134,12 @@
 
             <EditText
                 android:id="@+id/phoneNumber"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="0610108175"
-                android:backgroundTint="#da3084"
+                android:backgroundTint="@color/colorPrimary"
                 android:fontFamily="@font/montserrat"
+                android:textColor="@color/colorPrimary"
                 android:inputType="phone"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -155,12 +160,14 @@
 
             <EditText
                 android:id="@+id/birthDate"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
                 android:text="1998-08-30"
                 android:inputType="date"
-                android:backgroundTint="#da3084"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
         <LinearLayout
@@ -180,11 +187,12 @@
 
             <EditText
                 android:id="@+id/bloodgroup"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:text="Unspecified"
-                android:backgroundTint="#da3084"
+                android:textColor="@color/colorAccent"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
         <LinearLayout
@@ -204,11 +212,12 @@
 
             <EditText
                 android:id="@+id/pasthistory"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
+                android:textColor="@color/colorAccent"
                 android:text="None"
-                android:backgroundTint="#da3084"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
         <LinearLayout
@@ -228,10 +237,13 @@
 
             <EditText
                 android:id="@+id/maritalStatus"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
-                android:backgroundTint="#da3084"
+                android:fontFamily="@font/josefin"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:hint="Marital Status"
+                android:backgroundTint="@color/colorPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
         <Button
@@ -239,9 +251,11 @@
             android:layout_width="291dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
-            android:background="@drawable/outline_button"
+            android:background="@drawable/custombutton"
             android:text="Save changes"
-            android:textColor="#da3084"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/josefin"
+            android:textSize="20dp"
             android:layout_marginBottom="20dp"
             android:textAllCaps="false"
             android:onClick="update"/>

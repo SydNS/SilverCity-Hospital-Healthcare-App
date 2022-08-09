@@ -19,8 +19,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"
-        android:fontFamily="@font/montserrat_bold"
+        android:fontFamily="@font/josefinbold"
         android:text="Reset Password"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp" />
 
     <EditText
@@ -31,8 +32,9 @@
         android:layout_marginBottom="15dp"
         android:background="@drawable/custom_edittext"
         android:ems="10"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/josefin"
         android:hint="xywz@provider.domaine"
+        android:textColorHint="@color/colorPrimaryDark"
         android:inputType="textEmailAddress"
         android:padding="10dp"
         android:textSize="16sp" />
@@ -43,8 +45,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/custombuttonxx"
-        android:fontFamily="@font/montserrat"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@font/josefin"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:text="Send me an Email"

@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="55dp"
-        android:indeterminateTint="#9E9E9E"
+        android:indeterminateTint="@color/colorPrimary"
         />
 
 

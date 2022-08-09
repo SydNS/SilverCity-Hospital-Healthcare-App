@@ -10,7 +10,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00a2b1"
+        android:background="@drawable/border_bottom_roundedx"
         android:paddingBottom="20dp"
         android:theme="@style/AppTheme">
 
@@ -29,6 +29,5 @@
         android:id="@+id/patients"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 
 </LinearLayout>

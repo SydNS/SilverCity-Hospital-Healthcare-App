@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="25dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/border_bottom_roundedx"
         android:gravity="center"
@@ -81,7 +80,7 @@
                 android:gravity="center"
                 android:text="APPOINTMENT"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="120dp"
@@ -104,7 +103,7 @@
                 android:gravity="center"
                 android:text="EMERGENCY"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
 
         </LinearLayout>
 
@@ -130,7 +129,7 @@
                 android:gravity="center"
                 android:text="MEDICAL FOLDER"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -163,7 +162,7 @@
                 android:gravity="center"
                 android:text="SEARCH"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -187,7 +186,7 @@
                 android:gravity="center"
                 android:text="MY DOCTORS"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
 
         </LinearLayout>
 
@@ -214,7 +213,7 @@
                 android:gravity="center"
                 android:text="Facilities"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
 
         </LinearLayout>
 
@@ -248,7 +247,7 @@
                 android:gravity="center"
                 android:text="PROFILE"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
 
         </LinearLayout>
         <LinearLayout
@@ -272,7 +271,7 @@
                 android:gravity="center"
                 android:text="FEEDBACK"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
 
         </LinearLayout>
 
@@ -298,7 +297,7 @@
                 android:gravity="center"
                 android:text="LOG OUT"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="12sp" />
         </LinearLayout>
 
     </LinearLayout>

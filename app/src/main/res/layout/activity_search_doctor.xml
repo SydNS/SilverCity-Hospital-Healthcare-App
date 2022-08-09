@@ -11,13 +11,11 @@
         android:hint="Search..."
         android:drawableRight="@drawable/search"
         android:layout_marginTop="25.5dp"
-        android:backgroundTint="#da0384"
+        android:backgroundTint="@color/colorPrimary"
         />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-
 </LinearLayout>

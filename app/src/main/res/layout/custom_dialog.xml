@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:indeterminateTint="#da0384"/>
+        android:indeterminateTint="@color/colorAccent"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -22,6 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Processing..."
+        android:fontFamily="@font/josefin"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorAccent"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

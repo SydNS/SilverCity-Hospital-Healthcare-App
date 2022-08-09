@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme"
-        android:background="#da0384">
+        android:background="@drawable/border_bottom_roundedx">
         <SearchView
             android:id="@+id/mySearchView"
             android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#da0384"
+            android:background="@color/colorPrimary"
             app:tabTextColor="#FFFFFF"
             app:tabSelectedTextColor="#FFFFFF" />
     </com.google.android.material.appbar.AppBarLayout>

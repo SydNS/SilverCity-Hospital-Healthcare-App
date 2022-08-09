@@ -10,7 +10,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#da0384"
+        android:background="@color/colorPrimary"
         android:padding="20dp"
         android:theme="@style/AppTheme">
 
@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:drawableLeft="@drawable/ic_hospital_patient"
             android:drawablePadding="5dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
             android:text="My Patients"
             android:textColor="#FFF"
             android:textSize="24sp" />
@@ -31,7 +31,8 @@
     <ListView
         android:id="@+id/myPatients"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"/>
 
 
 </LinearLayout>

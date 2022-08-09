@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         errorMessage = findViewById(R.id.errorMessage);
         rememberMe = findViewById(R.id.rememberMe);
         sp = getSharedPreferences("login", MODE_PRIVATE);
-        if (sp.getBoolean("loggedPatient", false)) {
+                                  if (sp.getBoolean("loggedPatient", false)) {
             Intent intent = new Intent(MainActivity.this, MenuActivity.class);
             startActivity(intent);
         }

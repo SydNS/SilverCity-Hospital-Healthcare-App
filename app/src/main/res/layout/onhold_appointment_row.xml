@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
             android:text="Loutfi Aliluch"
             android:textSize="18sp" />
 
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/josefin"
             android:text="27/05/2020"
             android:textSize="16sp" />
 
@@ -42,7 +42,7 @@
             android:id="@+id/time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/josefin"
             android:text="10 : 15"
             android:textSize="16sp" />
 
@@ -58,7 +58,8 @@
             android:layout_width="105dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#28A745"
+            android:fontFamily="@font/josefin"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:drawableLeft="@drawable/ic_check"
             android:text="Accept"
             android:textAllCaps="false"
@@ -70,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#f44336"
+            android:fontFamily="@font/josefin"
             android:drawableLeft="@drawable/ic_close"
             android:text="Decline"
             android:textAllCaps="false"

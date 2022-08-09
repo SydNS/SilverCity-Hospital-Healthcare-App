@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
             android:textSize="20sp" />
 
         <TextView
@@ -30,13 +30,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/josefin"
             android:textSize="18sp" />
         <TextView
             android:id="@+id/time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/josefin"
             android:textSize="18sp"/>
     </LinearLayout>
 

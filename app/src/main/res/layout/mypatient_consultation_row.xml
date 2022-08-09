@@ -38,7 +38,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
+            android:textColor="@color/colorPrimaryDark"
             android:text="Aliluch Loutfi"
             android:layout_gravity="center"
             android:textSize="18sp" />
@@ -48,7 +49,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/josefin"
+            android:textColor="@color/colorPrimaryDark"
             android:text="25/05/2020"
             android:layout_gravity="center"
             android:textSize="16sp" />

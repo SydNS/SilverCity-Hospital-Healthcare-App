@@ -6,25 +6,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".DoctorUI.DoctorMenuActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_height="119dp"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:padding="10dp"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/border_bottom_roundedx">
+        android:background="@drawable/border_bottom_roundedx"
+        android:gravity="center"
+        android:padding="10dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/profile_image"
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:layout_marginLeft="50dp"
-            app:civ_border_width="2dp"
             android:layout_marginRight="10dp"
-            app:civ_border_color="#FFF" />
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
 
         <LinearLayout
             android:layout_width="180dp"
@@ -37,7 +37,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
+                android:text="Full Names"
+                android:textStyle="bold"
                 android:textColor="#FFF"
                 android:textSize="20sp" />
 
@@ -46,7 +48,9 @@
                 android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:fontFamily="@font/montserrat"
+                android:text="Speciality"
+                android:textStyle="bold"
+                android:fontFamily="@font/josefin"
                 android:textColor="#FFF"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -76,8 +80,9 @@
                     android:layout_height="wrap_content"
                     android:text="APPOINTMENT"
                     android:gravity="center"
+                    android:textStyle="bold"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/montserrat_bold"
+                    android:fontFamily="@font/josefin"
                     android:textSize="16sp"/>
             </LinearLayout>
 
@@ -99,9 +104,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="MY PATIENTS"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/montserrat_bold"
+                    android:fontFamily="@font/josefin"
                     android:textSize="16sp"/>
             </LinearLayout>
 
@@ -129,9 +135,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SEARCH"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/montserrat_bold"
+                    android:fontFamily="@font/josefin"
                     android:textSize="16sp"/>
             </LinearLayout>
             <LinearLayout
@@ -151,9 +158,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="PROFILE"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/montserrat_bold"
+                    android:fontFamily="@font/josefin"
                     android:textSize="16sp"/>
 
             </LinearLayout>
@@ -184,7 +192,8 @@
                     android:text="LOG OUT"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/montserrat_bold"
+                    android:fontFamily="@font/josefin"
+                    android:textStyle="bold"
                     android:textSize="16sp"/>
             </LinearLayout>
 

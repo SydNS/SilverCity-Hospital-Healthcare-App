@@ -113,6 +113,8 @@ public class CreateAccount extends AppCompatActivity {
         {
             doctorLinearLayout.setVisibility(View.GONE);
             patientLinearLayout.setVisibility(View.VISIBLE);
+            patientButton.setVisibility(View.VISIBLE);
+            doctorButton.setVisibility(View.GONE);
         }
     }
 
@@ -121,6 +123,8 @@ public class CreateAccount extends AppCompatActivity {
         {
             patientLinearLayout.setVisibility(View.GONE);
             doctorLinearLayout.setVisibility(View.VISIBLE);
+            patientButton.setVisibility(View.GONE);
+            doctorButton.setVisibility(View.VISIBLE);
         }
     }
 
