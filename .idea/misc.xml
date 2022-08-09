@@ -6,15 +6,21 @@
         <entry key="app/src/main/res/drawable-v24/ic_today_1.xml" value="0.2285" />
         <entry key="app/src/main/res/drawable/border_bottom_roundedx.xml" value="0.1735" />
         <entry key="app/src/main/res/drawable/custombutton.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/custombuttonx.xml" value="0.1745" />
         <entry key="app/src/main/res/drawable/disease.xml" value="0.264" />
         <entry key="app/src/main/res/drawable/ic_attach_money.xml" value="0.2285" />
+        <entry key="app/src/main/res/drawable/ic_edit_1.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_email.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_local_phone.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/ic_location_city.xml" value="0.264" />
         <entry key="app/src/main/res/drawable/outline_linearlayout.xml" value="0.2285" />
         <entry key="app/src/main/res/font/asert.xml" value="0.3212962962962963" />
         <entry key="app/src/main/res/font/montserrat.xml" value="0.3212962962962963" />
         <entry key="app/src/main/res/layout/accepted_fragment.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_appointments.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/activity_consultation_info.xml" value="0.303125" />
-        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.303125" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_display_doctor_info.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/activity_display_doctor_profile_info.xml" value="0.3182291666666667" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.303125" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3182291666666667" />

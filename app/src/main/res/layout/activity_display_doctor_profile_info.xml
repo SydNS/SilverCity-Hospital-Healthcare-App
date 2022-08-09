@@ -41,7 +41,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
             android:textSize="28sp"
             android:text="Aliluch Loutfi"/>
 
@@ -50,7 +52,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:fontFamily="@font/nunito_sans_bold"
+            android:fontFamily="@font/josefin"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="20sp"
             android:text="Dermathologue"/>
 
@@ -82,7 +85,9 @@
                 android:id="@+id/email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
                 android:text="aliluch.loutfi@gmail.com"
 
                 android:textSize="16sp" />
@@ -107,7 +112,9 @@
                 android:id="@+id/phoneNumber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
                 android:textSize="16sp"
                 android:text="0610108175"/>
         </LinearLayout>
@@ -130,7 +137,9 @@
                 android:id="@+id/fullAddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
                 android:textSize="16sp"
                 android:text="Avenue Mohamed Zraktouni, Al Hoceima"/>
         </LinearLayout>
