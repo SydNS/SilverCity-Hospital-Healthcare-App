@@ -12,6 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Full Name"
+        android:fontFamily="@font/josefin"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
         android:textSize="32sp"/>
 
     <TextView
@@ -21,13 +24,19 @@
         android:text="Email address"
         android:layout_marginTop="10dp"
         android:textSize="32sp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/josefin"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/userSpeciality"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Speciality"
-        android:textSize="32sp"/>
+        android:textSize="32sp"
+        android:fontFamily="@font/josefin"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
 
 </LinearLayout>

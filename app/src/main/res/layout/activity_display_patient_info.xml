@@ -26,10 +26,11 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="83dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
+            android:textColor="#fff"
+            android:textStyle="bold"
             android:gravity="center"
             android:text='" The satisfaction of patients is our priority ! "'
-            android:textColor="#FFF"
             android:textSize="18sp" />
     </LinearLayout>
 
@@ -57,7 +58,9 @@
             android:layout_height="wrap_content"
             android:textSize="28sp"
             android:text="Aliluch Loutfi"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
             android:layout_marginBottom="10dp"/>
         <TextView
             android:id="@+id/birthDate"
@@ -65,7 +68,9 @@
             android:layout_height="wrap_content"
             android:text="30/08/1998"
             android:textSize="20sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/josefin"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
             android:layout_marginBottom="10dp"/>
         <TextView
             android:id="@+id/bloodGroup"
@@ -73,7 +78,9 @@
             android:layout_height="wrap_content"
             android:text="X positive"
             android:textSize="20sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/josefin"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
             android:layout_marginBottom="10dp"/>
         <TextView
             android:id="@+id/pastHistory"
@@ -81,7 +88,9 @@
             android:layout_height="wrap_content"
             android:text="None"
             android:textSize="20sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/josefin"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
             android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
@@ -130,7 +139,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         android:src="@drawable/ic_plus_sign"
-        android:backgroundTint="#da0384"
+        android:backgroundTint="@color/colorPrimary"
         android:onClick="addPatient"
         app:borderWidth="0dp"
 
