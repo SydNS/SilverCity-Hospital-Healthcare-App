@@ -9,13 +9,14 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/montserrat_bold"
+        android:fontFamily="@font/josefin"
         android:gravity="center"
         android:text="Create account"
-        android:textColor="#da0384"
-        android:textSize="15sp" />
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold" />
     <RadioGroup
         android:layout_width="232dp"
         android:layout_height="wrap_content"
@@ -28,31 +29,34 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:buttonTint="#da0384"
-            android:text="Patient"
-            android:textColor="#da0384"
-            android:textSize="18sp"
+            android:buttonTint="@color/colorAccent"
             android:checked="true"
+            android:fontFamily="@font/josefin"
             android:onClick="patientRegistration"
-            />
+            android:text="Patient"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/doctorRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:buttonTint="#da0384"
+            android:buttonTint="#00BCD4"
+            android:fontFamily="@font/josefin"
+            android:onClick="doctorRegistration"
             android:text="Doctor"
-            android:textColor="#da0384"
+            android:textColor="#03A9F4"
             android:textSize="18sp"
-            android:onClick="doctorRegistration"/>
+            android:textStyle="bold" />
     </RadioGroup>
 
 
     <LinearLayout
         android:id="@+id/patientLinearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="550dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:gravity="center"
@@ -62,8 +66,9 @@
             android:id="@+id/patientFirstName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#da0384"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="First Name"
             android:inputType="textCapSentences" />
 
@@ -71,8 +76,9 @@
             android:id="@+id/patientLastName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#da0384"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Last Name"
             android:inputType="textCapSentences" />
 
@@ -80,32 +86,36 @@
             android:id="@+id/patientBirthDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#da0384"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Birth Date (YYYY-MM-DD)" />
 
         <EditText
             android:id="@+id/patientbloodgroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#da0384"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Blood Group" />
 
         <EditText
             android:id="@+id/patientpasthistory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#da0384"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Any past history? if not, type 'None'." />
 
         <EditText
             android:id="@+id/patientPhoneNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#da0384"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Phone number"
             android:inputType="phone" />
 
@@ -113,8 +123,9 @@
             android:id="@+id/patientEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#da0384"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Email"
             android:inputType="textEmailAddress" />
 
@@ -122,8 +133,9 @@
             android:id="@+id/patientCIN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#da0384"
+            android:backgroundTint="@color/colorAccent"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Pincode"
             android:inputType="textCapSentences" />
 
@@ -137,9 +149,10 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/josefin"
                 android:gravity="center_vertical"
                 android:text="Marital status:"
-                android:textColor="#da0384"
+                android:textColor="@color/colorAccent"
                 android:textSize="16sp" />
 
             <Spinner
@@ -154,6 +167,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Password"
             android:inputType="textPassword" />
 
@@ -162,6 +176,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="@font/josefin"
             android:hint="Confirm password"
             android:inputType="textPassword" />
 
@@ -172,7 +187,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:background="@drawable/custombutton"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
             android:onClick="signUpPatient"
             android:padding="10dp"
             android:text="Sign Up"
@@ -250,7 +265,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="Speciality"
-                android:textColor="#da0384"
+                android:textColor="@color/colorAccent"
                 android:textSize="16sp" />
 
             <Spinner

@@ -19,7 +19,7 @@
         android:layout_height="97dp"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"
-        app:civ_border_color="#FFFFFF"
+        app:civ_border_color="@color/colorAccent"
         app:civ_border_width="2dp" />
 
     <LinearLayout
@@ -66,7 +66,7 @@
             android:fontFamily="@font/montserrat_bold"
             android:gravity="center_horizontal"
             android:text="Details : "
-            android:textColor="#da0384"
+            android:textColor="@color/colorPrimary"
             android:textSize="16sp" />
 
         <LinearLayout
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:drawableLeft="@drawable/ic_attach_money"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/josefin"
                 android:gravity="center_vertical"
                 android:layout_marginLeft="20dp"/>
         </LinearLayout>
@@ -117,7 +117,7 @@
             android:layout_height="34dp"
             android:layout_gravity="center"
             android:background="@drawable/custombutton"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
             android:onClick="prescription"
             android:text="prescription"
             android:textAllCaps="false"
@@ -131,7 +131,7 @@
             android:layout_height="36dp"
             android:layout_gravity="center"
             android:background="@drawable/custombutton"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/josefin"
             android:onClick="display_prescription_photo"
             android:text="prescription photo"
             android:textAllCaps="false"
