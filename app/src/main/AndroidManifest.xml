@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yoMusawo">
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -8,7 +9,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -18,69 +19,57 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.yoMusawo.DoctorUI.MyPatientMedicalFolderActivity"
+            android:name=".DoctorUI.MyPatientMedicalFolderActivity"
             android:label="@string/title_activity_my_patient_medical_folder"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name="com.example.yoMusawo.DoctorsBySpecialityActivity" />
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DoctorsBySpecialityActivity" />
         <activity
-            android:name="com.example.yoMusawo.DoctorUI.DoctorAppointments"
+            android:name=".DoctorUI.DoctorAppointments"
             android:label="@string/title_activity_doctor_appointments"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.yoMusawo.DoctorUI.DoctorEditProfileInfo" />
-        <activity android:name="com.example.yoMusawo.DoctorUI.DisplayDoctorProfileInfo" />
-        <activity android:name="com.example.yoMusawo.DoctorUI.MyPatientInfoActivity" />
-        <activity android:name="com.example.yoMusawo.DoctorUI.MyPatientsActivity" />
-        <activity android:name="com.example.yoMusawo.DoctorUI.DisplayPatientInfo" />
-        <activity android:name="com.example.yoMusawo.MyDoctorInfoActivity" />
-        <activity android:name="com.example.yoMusawo.MyDoctorsActivity" />
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-
+        <activity android:name=".DoctorUI.DoctorEditProfileInfo" />
+        <activity android:name=".DoctorUI.DisplayDoctorProfileInfo" />
+        <activity android:name=".DoctorUI.MyPatientInfoActivity" />
+        <activity android:name=".DoctorUI.MyPatientsActivity" />
+        <activity android:name=".DoctorUI.DisplayPatientInfo" />
+        <activity android:name=".MyDoctorInfoActivity" />
+        <activity android:name=".MyDoctorsActivity" />
         <activity
-            android:name="com.example.yoMusawo.DoctorLocalisation"
+            android:name=".DoctorLocalisation"
             android:label="@string/title_activity_doctor_localisation" />
-        <activity android:name="com.example.yoMusawo.ConsultationInfoActivity" />
-        <activity android:name="com.example.yoMusawo.EmergencyCall" />
+        <activity android:name=".ConsultationInfoActivity" />
+        <activity android:name=".EmergencyCall" />
         <activity
-            android:name="com.example.yoMusawo.MedicalFolderActivity"
+            android:name=".MedicalFolderActivity"
             android:label="@string/title_activity_medical_folder"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.yoMusawo.DoctorUI.SearchPatientActivity" />
+        <activity android:name=".DoctorUI.SearchPatientActivity" />
         <activity
-            android:name="com.example.yoMusawo.AppointmentsActivity"
+            android:name=".AppointmentsActivity"
             android:label="@string/title_activity_appointments"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.yoMusawo.ScheduleAppointmentActivity" />
-        <activity android:name="com.example.yoMusawo.DoctorUI.DoctorMenuActivity" />
-        <activity android:name="com.example.yoMusawo.EditProfileActivity" />
-        <activity android:name="com.example.yoMusawo.PatientProfileInformations" />
-        <activity android:name="com.example.yoMusawo.DisplayDoctorInfo" />
-        <activity android:name="com.example.yoMusawo.DisplayItemDataActivity" />
+        <activity android:name=".ScheduleAppointmentActivity" />
+        <activity android:name=".DoctorUI.DoctorMenuActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".PatientProfileInformations" />
+        <activity android:name=".DisplayDoctorInfo" />
+        <activity android:name=".DisplayItemDataActivity" />
         <activity
-            android:name="com.example.yoMusawo.SearchDoctorSpecialityActivity"
+            android:name=".SearchDoctorSpecialityActivity"
             android:label="@string/title_activity_search_doctor_speciality"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.yoMusawo.SearchDoctorActivity" />
-        <activity android:name="com.example.yoMusawo.MenuActivity" />
-        <activity android:name="com.example.yoMusawo.CreateAccount" />
-        <activity android:name="com.example.yoMusawo.MainActivity" />
-        <activity android:name="com.example.yoMusawo.SplashActivity">
+        <activity android:name=".SearchDoctorActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.yoMusawo.DisplayPrescriptionPhoto" />
+        <activity android:name=".DisplayPrescriptionPhoto" />
 
         <meta-data
             android:name="preloaded_fonts"
