@@ -15,7 +15,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/medicalteam"
-        android:label="yoMusawo"
+        android:label="yoMusawo-ntege-hamza"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
